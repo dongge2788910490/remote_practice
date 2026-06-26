@@ -1,0 +1,26 @@
+# Local agent/workspace metadata
+.agents/
+.codex/
+
+# Runtime logs
+*.log
+server.out.log
+server.err.log
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Environment and OS/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+
+# Unused generated shopping-site asset
+assets/hero-shop.png
